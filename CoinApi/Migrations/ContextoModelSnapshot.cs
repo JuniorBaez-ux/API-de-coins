@@ -18,7 +18,7 @@ namespace CoinApi.Migrations
 
             modelBuilder.Entity("Coins", b =>
                 {
-                    b.Property<int>("MonedaId")
+                    b.Property<int?>("MonedaId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
